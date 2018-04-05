@@ -37,13 +37,12 @@ int main(int argc, char* argv[])
                 printf("%d: 'U'\n", i);
                 break;
 
-            // add Y case
             case 'y':
             case 'Y':
                 if (i > 2) {
                   printf("%d, 'Y'\n", i);
                 }
-                break; 
+                break;
 
             default:
                 printf("%d: %c is not a vowel\n", i, letter);
