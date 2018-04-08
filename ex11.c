@@ -56,12 +56,13 @@ int main(int argc, char* argv[]) {
 
     printf("another %s\n", another);
 
-    printf("all the letters are %c %c %c %c %c\n",
+    printf("all the letters are %c\n %c\n %c\n %c\n %c\n %c\n",
         another[0],
         another[1],
         another[2],
         another[3],
-        another[4]
+        another[4],
+        another[5]
     );
 
     return 0;
